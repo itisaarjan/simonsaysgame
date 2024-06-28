@@ -1,32 +1,44 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#main-div{
+
+#main-div {
     width: 250px;
     height: 120px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
-#red{
+
+.red {
     background-color: #DA5A80;
 }
-#blue{
+
+.blue {
     background-color: #62AAC1;
 }
-#orange{
+
+.orange {
     background-color: #FB9B44;
 }
-#purple{
+
+.purple {
     background-color: #829FF9;
 }
-.box{
+
+.box {
     width: 100px;
     height: 100px;
-    /* background-color: red; */
     border-radius: 10px;
     border: 5px solid black;
+}
+
+.flash {
+    background-color: white;
+}
+.userflash {
+    background-color: green;
 }
