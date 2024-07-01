@@ -6,12 +6,15 @@ let colors = ["red", "blue", "orange", "purple"];
 let highestscore=0;
 
 let started = false;
-body.addEventListener("keypress", function () {
+body.addEventListener("keypress", startGame);
+body.addEventListener("click", startGame);
+function startGame() {
     if (!started) {
         started = true;
         levelUp();
     }
-});
+}
+
 
 function gameFlash(btn) {
     btn.classList.add("flash");
