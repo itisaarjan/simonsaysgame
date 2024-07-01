@@ -8,6 +8,7 @@ let highestscore=0;
 let started = false;
 body.addEventListener("keypress", startGame);
 body.addEventListener("click", startGame);
+body.addEventListener("dblclick",startGame);
 function startGame() {
     if (!started) {
         started = true;
